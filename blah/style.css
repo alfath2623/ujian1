@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background: #f3f5f9;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    padding: 30x 0;
+}
+
+.wrapper .sidebar h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.wrapper .sidebar ul li a{
+    color: #bdb8b7;
+    display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+    background: #594f8d;
+}
+
+.wrapper .sidebar ul li:hover{
+    color: #fff;
+}
+.wrapper .sidebar .social_media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.wrapper .sidebar .social_media a{
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8b7;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.wrapper .main_contect{
+    width: 100%;
+    margin-left: 200px;  
+}
+
+.wrapper .main_contect .header{
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_contect .info{
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+}
+
+.wrapper .main_contect .info div{
+    margin-bottom: 20px;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.card-body{
+    padding: 2px;
+}
+
+/* profile section >masih masalah< */
+
+section#box-profile{
+    position: relative;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 136, 136, 0.2)
+}
+
+#box-profile .img-profile{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: none;
+    top: 25px;
+}
+
+.img-profile .photo{
+    height: 100%;
+    background-image: url(image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+    border-radius: 300px;
+}
+
+.description{
+    position: relative;
+    width: 400px;
+    display: inline-block;
+    float: none;
+    top: 50px;
+    margin-left: 30px;
+    font-family: 'Helvetica', sans-serif;
+    border-right: 1px solid #efefef;
+}
+
+.description h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.description p{
+    color: #888;
+}
+
+.description .button{
+    margin-top: 40px;
+}
+
+.infomation{
+    position: relative;
+    display: inline-block;
+    float: none;
+    font-family: 'Helvetica', sans-serif;
+    top: 45px;
+    margin-left: 30px;
+}
+
+.infomation.data{
+    display: block;
+    width: 100%;
+    height: 36px;
+}
+
+.infomation p.field{
+    font-weight: 600;
+    width: 150px;
+    color: #333;
+}
+
+.infomation .data p{
+    float: left;
+}
+
+/* color */
+
+.bg-green{
+    background-color: #52dc90;
+    color: #fff;
+    box-shadow: 0 0 7px 0px #52dc90;
+    border: 1px solid #52dc90;
+}
+
+.bg-blue{
+    background-color: #55a8fd;
+    color: #fff;
+    box-shadow: 0 0 7px 0px #55a8fd;
+    border: 1px solid #55a8fd;
+}
+
+.border-blue{
+    color: #55a8fd;
+    border: 1px solid #55a8fd;
+}
+
+/*componen*/
+.text-black{
+    color: #333;
+}
+
+.text-gray{
+    color: #888;
+}
+
+.button{
+    position: relative;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+
+/* LOGIN >masih masalah< */
+
+.container1{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+
+.container1 h1{
+    font-size: 40px;
+    margin-top: 160px;
+    margin-bottom: 60px;
+    color: black;
+}
+
+.tbox{
+    widows: 260px;
+    height: 40px;
+    background: #f1f1f1b3;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.tbox input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90px;
+    line-height: 37px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: rgb(22, 21, 21);
+}
+
+.btn{
+    widows: 260px;
+    height: 40px;
+    background: #f1f1f1b3;
+    border-radius: 10px;
+    margin: 14px auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.b1{
+    display: block;
+    width: 260px;
+    padding: 10px 0;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    margin: auto;
+    transition: 0.4s all;
+}
+
+.b2{
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 260px;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #00000040;
+}
+
+
+
